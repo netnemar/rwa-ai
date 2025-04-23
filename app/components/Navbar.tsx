@@ -22,20 +22,13 @@ export default function Navbar() {
         </Link>
         <nav className="hidden md:flex gap-8 text-lg">
           {navLinks.map((link) => (
-            <a
-              key={link.href}
-              href={link.href}
-              className="transition-colors hover:text-primary-400"
-            >
+            <a key={link.href} href={link.href} className="transition-colors hover:text-primary-400">
               {link.label}
             </a>
           ))}
         </nav>
         {/* mobile menu button */}
-        <button
-          className="md:hidden p-2 rounded-lg border border-white/20"
-          onClick={() => setOpen(!open)}
-        >
+        <button className="md:hidden p-2 rounded-lg border border-white/20" onClick={() => setOpen(!open)}>
           <span className="sr-only">Toggle navigation</span>
           <div className="space-y-1">
             <span className="block h-0.5 w-6 bg-white"></span>

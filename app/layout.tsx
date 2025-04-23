@@ -5,8 +5,8 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
-  title: "RWA AI – Analyse Real‑World Asset Tokens with AI",
-  description: "Powerful AI toolkit for analysing tokenised real‑world assets.",
+  title: "RWA AI – Analyse Real-World Asset Tokens with AI",
+  description: "Powerful AI toolkit for analysing tokenised real-world assets.",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
